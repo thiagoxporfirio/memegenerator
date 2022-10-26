@@ -1,3 +1,8 @@
-.imgbox{
-    width: 90%;
+
+@media (max-width: 634px){
+    
+    .imgbox{
+        width: 95%;
+    }
+
 }
