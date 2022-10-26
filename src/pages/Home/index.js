@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import qs from 'qs';
 import { Card, Wrapper, Templates, Form, Button } from "./styles";
+import './app.css'
 import logo from '../../images/logo.svg'
 
 export default function Home(){
@@ -59,7 +60,7 @@ export default function Home(){
             <Card>
             {generatedMeme && (
           <>
-            <img src={generatedMeme} alt="Generated Meme" />
+            <img className="imgbox" src={generatedMeme} alt="Generated Meme" />
             <Button type="button" onClick={handleReset}>Criar outro meme</Button>
           </>
         )}
@@ -101,4 +102,5 @@ export default function Home(){
             </Card>
         </Wrapper>
     )
+
 }

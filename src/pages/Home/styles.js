@@ -11,7 +11,7 @@ export const Wrapper = styled.div`
 
 export const Card = styled.div`
   background: #fff;
-  width: 550px;
+  width: 90%;
   border-radius: 8px;
   padding: 20px;
   margin-top: 15px;
@@ -78,3 +78,4 @@ export const Button = styled.button`
     background: #3672A3;
   }
 `;
+
